@@ -32,7 +32,7 @@ Built on a D-MPNN architecture, AUINet uses Monte Carlo dropout to estimate atom
 |      tqdm        | \==4.66.2 |
 |    matplotlib    | \==3.8.4 |
 
-First, Note that the requirements.txt file does not contain the command to install pytorch and cuda, you need to run the following command to install it separately:
+First, note that the requirements.txt file does not contain the command to install pytorch and cuda, you need to run the following command to install it separately:
 
     $ pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu121
     
