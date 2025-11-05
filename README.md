@@ -35,7 +35,7 @@ Built on a D-MPNN architecture, AUINet uses Monte Carlo dropout to estimate atom
 First, note that the requirements.txt file does not contain the command to install pytorch and cuda, you need to run the following command to install it separately:
 
     $ pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu121
-    
+
 Then, please use the following environment installation command:
 
     $ pip install -r requirements.txt
@@ -53,12 +53,12 @@ To train and test a model with an existing dataset:
 | BACE         |   80.9   |   71.0   |   90.6   |   57.0   |   75.9   |   77.1   |
 | MGCN         |   73.4   |   85.0   |   63.4   |   55.2   |   70.7   |   73.8   |
 | Attentive FP |   78.4   |   64.3   |   84.7   |   60.6   |   76.1   |   75.7   |
-| MOL-AE       |   84.1   |   72.0   |   87.8   |   67.0   | **80.0** |   80.6   |
+| MOL-AE       |   84.1   |   72.0   |   87.8   |   67.0   | ==**80.0**== |   80.6   |
 | PretrainGNN  |   84.5   |   68.7   |   72.6   |   62.7   |   78.1   |   81.3   |
 | GraphMVP     |   81.2   |   72.4   |   79.1   |   63.9   |   75.9   |   77.0   |
 | SCAGE        |   85.4   |   73.4   |   92.7   |   66.0   |   79.4   |    -     |
 | Uni-Mol      |   85.7   |   72.9   |   91.9   |   65.9   |   79.6   |   80.8   |
 | GEM          |   85.6   |   72.4   |   90.1   |   67.2   |   78.1   |   80.6   |
-| **AUINet**   | ==**87.1**== | **95.9**== | **95.7** | **67.8** |   78.6   | ==**84.1**== |
+| **AUINet**   | ==**87.1**== | ==**95.9**== | ==**95.7**== | ==**67.8**== |   78.6   | ==**84.1**== |
 
 ## Citation
