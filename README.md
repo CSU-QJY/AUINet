@@ -1,4 +1,4 @@
-# Interpretable Atomic Uncertainty-aware Iterative Network for Efficient Molecular Property Prediction
+# Atomic Uncertainty Pinpoints Critical Failure Structures for Trustworthy Molecular Property Prediction
 
 
 
@@ -7,7 +7,7 @@ In this study, we introduce AUINet, an Atomic Uncertainty-aware Iterative Networ
 
 ![image-20251105164141103](images.jpg)
 
-Built on a D-MPNN architecture, AUINet uses Monte Carlo dropout to estimate atom-level uncertainty and iteratively refines atomic features through uncertainty-guided updating. Comprehensive evaluations show that AUINet outperforms state-of-the-art (SOTA) models on molecular property benchmarks and protein-protein interaction (PPI) inhibitors tasks under low-data conditions, all without requiring extensive pretraining. More importantly, AUINet provides chemically interpretable insights by pinpointing specific functional groups and structural motifs that contribute most to prediction uncertainty, as validated in solubility prediction and activity cliff analysis. Overall, AUINet's precise localization of atomic-level uncertainty establishes a new paradigm for trustworthy molecular property prediction. 
+Built on a D-MPNN architecture, AUINet uses Monte Carlo dropout to estimate atom-level uncertainty and iteratively refines atomic features through uncertainty-guided updating. Comprehensive evaluations show that AUINet outperforms state-of-the-art models on molecular property benchmarks and protein-protein interaction (PPI) inhibitors tasks under low-data conditions, all without requiring extensive pretraining. Crucially, rejection sampling experiments reveal that atom uncertainty provides a more robust error signal than classic molecular uncertainty. More importantly, AUINet provides chemically interpretable insights by pinpointing specific functional groups and structural motifs that contribute most to prediction uncertainty, as validated in solubility prediction and activity cliff analysis. Overall, AUINet's precise localization of atomic-level uncertainty establishes a new paradigm for trustworthy molecular property prediction.
 
 
 # Installation guide
