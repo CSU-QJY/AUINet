@@ -64,3 +64,25 @@ To train and test a model with an existing dataset:
 
 ## Citation
 
+If you use this code or our method in your research, please cite the following paper:
+
+**ACS style**  
+Jiayu Qian, Yukun Luo, Qingping Zhou, Xiaoqing Guan; Atomic Uncertainty Pinpoints Critical Failure Structures for Trustworthy Molecular Property Prediction. *J. Chem. Inf. Model.* 27 July 2026; 66 (14): 8076–8086. https://doi.org/10.1021/acs.jcim.6c00973
+
+**BibTeX**
+
+```bibtex
+@article{10.1021/acs.jcim.6c00973,
+    author = {Qian, Jiayu and Luo, Yukun and Zhou, Qingping and Guan, Xiaoqing},
+    title = {Atomic Uncertainty Pinpoints Critical Failure Structures for Trustworthy Molecular Property Prediction},
+    journal = {Journal of Chemical Information and Modeling},
+    volume = {66},
+    number = {14},
+    pages = {8076-8086},
+    year = {2026},
+    month = {07},
+    issn = {1549-9596},
+    doi = {10.1021/acs.jcim.6c00973}
+}
+
+```
