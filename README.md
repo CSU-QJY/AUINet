@@ -1,7 +1,7 @@
 # Atomic Uncertainty Pinpoints Critical Failure Structures for Trustworthy Molecular Property Prediction
 
 [![Python 3.9](https://img.shields.io/badge/Python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
-[![Pytorch](https://img.shields.io/badge/PyTorch-1.9-red.svg)](https://pytorch.org/get-started/previous-versions/)
+[![Pytorch](https://img.shields.io/badge/PyTorch-2.2.2-red.svg)](https://pytorch.org/get-started/previous-versions/)
 
 # Background
 In this study, we introduce AUINet, an Atomic Uncertainty-aware Iterative Network that quantifies and refines uncertainty at the atomic scale. An overview of the proposed model is shown in following figure:  
